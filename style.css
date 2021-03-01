@@ -4,3 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: paleturquoise;
+}
+
+h1 {
+    padding: 2%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

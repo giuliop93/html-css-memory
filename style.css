@@ -58,13 +58,16 @@ h1 {
   }
 
 #card9 {
-    background-image: url('img/noun_Tractor_3134797.png');
     display: none;
 }
 
-#item9:hover #card9 {
-    display: block;
-  }
+#item9:hover {
+    background-image: url('img/noun_Tractor_3134797.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 footer {
     margin-top: 1%;

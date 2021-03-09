@@ -65,7 +65,7 @@ h1 {
 }
 
 .tractor:hover {
-    background-image: url('img/noun_Tractor_3134797.png');
+    /* background-image: url('img/noun_Tractor_3134797.png'); */
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;

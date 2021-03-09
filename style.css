@@ -20,10 +20,13 @@ h1 {
 }
 
 .wrapper {
-    margin-top: 2%;
-    margin-left: 32%;
-    height: 22vh;
-    width: 80vw;
+    margin: auto;
+}
+
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 .item {
@@ -57,11 +60,11 @@ h1 {
     display: none;
   }
 
-#card9 {
+.card {
     display: none;
 }
 
-#item9:hover {
+.tractor:hover {
     background-image: url('img/noun_Tractor_3134797.png');
     background-color: white;
     background-size: contain;
